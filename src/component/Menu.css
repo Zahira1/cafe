@@ -1,0 +1,34 @@
+.menu {
+    background-color: #ebdb9e69; /* White background for the menu */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  
+  .menu-item-name {
+    font-weight: bold;
+  }
+  
+  .menu-item-price {
+    font-style: italic;
+  }
+  
+  .menu-item-description {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  hr {
+    border: 1px solid #E0E0E0;
+  }
+  
